@@ -3,36 +3,63 @@
     <head>
         <link href="./img/favicon.png" rel="shortcut icon"/>
         <meta charset="utf-8"/>
-        <meta content="width=1440px, maximum-scale=1.0" name="viewport"/>
-        <link href="./css/tOUR.css" rel="stylesheet" type="text/css"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/tour.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+        </script>
+        <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js">
+        </script>
         <meta content="Launchpad by Anima" name="author">
         </meta>
     </head>
     <body style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
         <input id="anPageName" name="page" type="hidden" value="tour"/>
-        <form action="none" class="tour" method="post" name="none">
-            <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
-                <div class="rectanglecopy">
+        <form action="none" class="tour" id="None" method="post" name="none">
+            <div class="bitmap">
+                <img anima-src="./img/index-bitmap.png" class="bitmap3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/tour-mask.png" class="mask" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <img anima-src="./img/music-bitmap 1.png" class="bitmap11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            </div>
+            <img anima-src="./img/music-bitmap 2.png" class="bitmap1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <div class="rectangle">
+            </div>
+            <div class="dates">
+                <div class="thursday13july201">
+                    Thursday 13 July 2017<br />XXXTentacion<br />The Observatory, Santa Ana, CA, US
                 </div>
-                <img anima-src="./img/music-bitmap 2.png" class="bitmap" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <div class="rectangle">
+                <div class="saturday21october">
+                    Saturday 21 October 2017 – Sunday 22 October 2017<br />XXXTentacion<br />Rolling Loud Festival 2017<br />Shoreline Amphitheatre, Mountain View, CA, US
                 </div>
-                <img anima-src="./img/music-bitmap 3.png" class="bitmap1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                <div class="xxxtentacion">
-                    <a href="index.html">XXXTENTACION</a>
+                <div class="saturday16december">
+                    Saturday 16 December 2017 – Sunday 17 December 2017<br />XXXTentacion<br />Rolling Loud Festival 2017<br />NOS Events Center, San Bernardino, CA, US
                 </div>
-                <div class="tour1">
-                    <a href="tour.html">TOUR</a>
-                </div>
-                <div class="merch">
-                    <a href="merch.html">MERCH</a>
-                </div>
-                <div class="music">
-                    <a href="music.html">MUSIC</a>
-                </div>
-                <div class="a2017tourdatessatu">
-                    <span class="span1">2017 TOUR DATES<br /></span><span class="span2"><br />Saturday 16 December 2017 – Sunday 17 December 2017<br />XXXTentacion<br />Rolling Loud Festival 2017<br />NOS Events Center, San Bernardino, CA, US<br /><br />Saturday 21 October 2017 – Sunday 22 October 2017<br />XXXTentacion<br />Rolling Loud Festival 2017<br />Shoreline Amphitheatre, Mountain View, CA, US<br /><br />Thursday 13 July 2017<br />XXXTentacion<br />The Observatory, Santa Ana, CA, US</span>
+            </div>
+            <div class="bitmap2-layout-container">
+                <a href="index.html">
+                    <img anima-src="./img/index-bitmap 3@2x.png" class="bitmap2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </a>
+            </div>
+            <div class="a2017tourdates">
+                2017 TOUR DATES
+            </div>
+            <div class="stackedgroup-layout-container">
+                <div class="stackedgroup">
+                    <a href="tour.html">
+                        <div class="tourdates">
+                            TOUR DATES
+                        </div>
+                    </a>
+                    <a href="merch.html">
+                        <div class="merch">
+                            MERCH
+                        </div>
+                    </a>
+                    <a href="music.html">
+                        <div class="music">
+                            MUSIC
+                        </div>
+                    </a>
                 </div>
             </div>
         </form>
