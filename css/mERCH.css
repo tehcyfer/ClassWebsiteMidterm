@@ -1,0 +1,358 @@
+
+@font-face {
+  font-family: "Arial-Black";
+  src: url('../fonts/Arial Black.ttf') format("truetype");
+}
+
+.merch {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.merch .rectanglecopy {
+  background-color    : rgba(254, 170, 186, 1.0);
+  top                 : 0px;
+  height              : 1022px;
+  width               : 30000px;
+  position            : absolute;
+  margin              : 0;
+  left                : -15000px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 712px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 319px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 797px;
+  height              : 1000px;
+  width               : 30000px;
+  position            : absolute;
+  margin              : 0;
+  left                : -15000px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 110px;
+  width               : 30000px;
+  position            : absolute;
+  margin              : 0;
+  left                : -15000px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 797px;
+  height              : 1008px;
+  width               : 2199px;
+  position            : absolute;
+  margin              : 0;
+  left                : -353px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .xxxtentacion {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 493px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-Black", Helvetica, Arial, serif;
+  font-size           : 51.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 72.0px;
+}
+.merch .tour {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 878px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 320px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-Black", Helvetica, Arial, serif;
+  font-size           : 51.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 72.0px;
+}
+.merch .merch1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 878px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 603px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-Black", Helvetica, Arial, serif;
+  font-size           : 51.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 72.0px;
+}
+.merch .music {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 871px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 932px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-Black", Helvetica, Arial, serif;
+  font-size           : 51.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 72.0px;
+}
+.merch .bitmap3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 217px;
+  height              : 363px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 219px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .bitmapcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 217px;
+  height              : 363px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 611px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .revengehoodie475 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 605px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-Black", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+.merch .bitmap4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 712px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 707px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .revengehoodie4751 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 609px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 584px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-Black", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+.merch .bitmapcopy21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 217px;
+  height              : 363px;
+  width               : 272px;
+  position            : absolute;
+  margin              : 0;
+  left                : 999px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .bitmap5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 712px;
+  height              : 72px;
+  width               : 72px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1095px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.merch .revengehoodie4752 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 609px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 972px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial-Black", Helvetica, Arial, serif;
+  font-size           : 32.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+a:link {
+color: #cc0000;
+}
+a:visited {
+color: #999999;
+}
+a:hover {
+color: #ff3300;
+}
